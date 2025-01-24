@@ -5,14 +5,14 @@ public class Variables {
 	public static void main(String[] args) {
 		int num1=28;
 		double num2=0.8;
-		String numberLike="私の好きな";
-		String numberDesu="です。";
+		String likeNumber="私の好きな";
+		String desuNumber="です。";
 		
 		System.out.println(num1);
 		System.out.println(num2);
 		
-		System.out.println(numberLike+"整数は"+num1+numberDesu);
-		System.out.println(numberLike+"少数は"+num2+numberDesu);
+		System.out.println(likeNumber+"整数は"+num1+desuNumber);
+		System.out.println(likeNumber+"少数は"+num2+desuNumber);
 	}
 
 }
